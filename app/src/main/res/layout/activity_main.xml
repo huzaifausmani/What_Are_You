@@ -20,7 +20,7 @@
         android:textStyle="italic|bold"/>
 
     <TextView
-        android:id="@+id/questionText2"
+        android:id="@+id/endStatement"
         android:layout_width="348dp"
         android:layout_height="66dp"
         android:layout_marginTop="316dp"
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/questionText" />
 
     <ProgressBar
-        android:id="@+id/progressBar3"
+        android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="340dp"
         android:layout_height="22dp"
@@ -107,6 +107,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:outlineAmbientShadowColor="@color/golden_0"
-        android:background="@color/golden"/>
+        android:background="@color/golden_0"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
